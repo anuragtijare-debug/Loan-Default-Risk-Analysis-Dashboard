@@ -1,13 +1,15 @@
 # Loan Default Risk Analysis Dashboard
 
 ## Project Overview
-This project is a professional ** Loan Default Risk Analytics Dashboard** built to analyze loan default risk, borrower profiles, credit behavior, financial performance, and portfolio health.
+
+This project is a professional **FinTech / Banking Risk Analytics Dashboard** built to analyze loan default risk, borrower profiles, credit behavior, financial performance, and portfolio health.
 
 The dashboard helps financial institutions identify high-risk borrowers, monitor default patterns, and make data-driven lending decisions.
 
 This project is designed as a portfolio project for **Data Analyst**, **BI Developer**, and **Business Intelligence** roles.
 
 ---
+
 ## Business Problem
 
 Loan default is one of the most important challenges for banks, NBFCs, and lending companies. A high default rate can directly impact profitability, risk exposure, and portfolio quality.
@@ -26,26 +28,26 @@ This dashboard analyzes borrower and loan data to answer key business questions:
 
 ## Dashboard Preview
 
-###  Overview
-![Overview](01_Executive_Overview.png.png)
+### Overview
+![Executive Overview](01_Overview.png)
 
 ### Risk Analysis
-![Credit Risk Analysis](02_Credit_Risk_Analysis.png.png)
+![Risk Analysis](02_Risk_Analysis.png)
 
 ### Customer Analysis
-![Borrower Insights](03_Borrower_Insights.png.png)
+![Customer Analysis](03_Customer_Analysis.png)
 
 ### Financial Analysis
-![Financial Performance](04_Financial_Performance.png.png)
+![Financial Analysis](04_Financial_Analysis.png)
 
 ### Default Prediction
-![Default Risk Prediction](05_Default_Risk_Prediction.png.png)
+![Default Prediction](05_Default_Prediction.png)
 
 ---
 
 ## Dashboard Pages
 
-### 1.  Overview
+### 1. Executive Overview
 
 Provides a high-level summary of the loan portfolio.
 
@@ -151,6 +153,22 @@ The dataset contains borrower-level and loan-level information used to analyze l
 
 ---
 
+## Data Analysis Process
+
+The following steps were performed before building the dashboard:
+
+- Imported and reviewed the loan default dataset
+- Checked column names, data types, and field meanings
+- Identified numerical and categorical variables
+- Cleaned and transformed data using Power Query
+- Created calculated columns for segmentation
+- Created DAX measures for KPIs
+- Built risk categories based on credit score and borrower behavior
+- Designed dashboard pages for business storytelling
+- Generated insights and recommendations from the analysis
+
+---
+
 ## Key KPIs
 
 | KPI | Description |
@@ -165,6 +183,7 @@ The dataset contains borrower-level and loan-level information used to analyze l
 | Average DTI Ratio | Average debt-to-income ratio |
 | High-Risk Borrowers | Borrowers in high-risk credit score range |
 | Critical-Risk Borrowers | Borrowers with very low credit score |
+| Portfolio Health Score | Composite view of portfolio quality |
 
 ---
 
@@ -207,20 +226,37 @@ Additional risk factors considered:
 
 Based on the analysis, the following actions are recommended:
 
-1. Strengthen underwriting for young borrowers aged 18–25.
-2. Apply stricter income verification for borrowers earning below $30K.
-3. Encourage or require co-signers for high-risk borrower profiles.
-4. Monitor borrowers with high DTI ratios more closely.
-5. Reduce exposure to critical-risk credit score groups.
-6. Expand lending to low-risk borrower segments.
-7. Review business loan approval criteria due to higher risk.
-8. Use borrower risk segmentation for better credit decision-making.
+1. **Strengthen underwriting for young borrowers**
+   - Borrowers aged 18–25 show high default probability.
+   - Additional income and employment verification should be applied.
+
+2. **Monitor low-income borrowers**
+   - Borrowers earning below $30K have the highest default risk.
+   - Loan limits and approval thresholds should be reviewed for this group.
+
+3. **Encourage co-signers for high-risk profiles**
+   - Borrowers without co-signers show higher risk exposure.
+   - Co-signers can help reduce repayment risk.
+
+4. **Control high DTI exposure**
+   - Borrowers with high debt-to-income ratios should be monitored closely.
+   - DTI-based approval rules can improve portfolio quality.
+
+5. **Reduce exposure to critical-risk borrowers**
+   - Borrowers with credit scores below 500 require stricter risk checks.
+   - This segment should be monitored with early-warning indicators.
+
+6. **Expand low-risk segments**
+   - Senior borrowers and high-credit-score customers show better repayment behavior.
+   - These segments can be targeted for safer portfolio growth.
 
 ---
 
 ## Tools Used
 
 - Power BI
+- SQL
+- Python
 - DAX
 - Power Query
 - Data Modeling
@@ -235,6 +271,10 @@ Based on the analysis, the following actions are recommended:
 
 - Data Cleaning
 - Data Transformation
+- SQL Querying
+- Python Data Analysis
+- Power Query Transformation
+- DAX Measure Creation
 - KPI Development
 - Dashboard Design
 - Credit Risk Analysis
@@ -257,10 +297,6 @@ This dashboard helps financial institutions:
 - Improve credit approval strategy
 - Make data-driven lending decisions
 
-## Author
-
-**Anurag TIjare **  
+---
+** Anurag Tijare **
 Data Analyst / BI Developer
-
-LinkedIn: Coming Soon
-GitHub: Coming Soon
