@@ -27,7 +27,7 @@ This dashboard analyzes borrower and loan data to answer key business questions:
 ## Dashboard Preview
 
 ###  Overview
-![Executive Overview](01_Executive_Overview.png.png)
+![Overview](01_Executive_Overview.png.png)
 
 ### Risk Analysis
 ![Credit Risk Analysis](02_Credit_Risk_Analysis.png.png)
