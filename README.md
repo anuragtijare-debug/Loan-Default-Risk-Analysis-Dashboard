@@ -26,26 +26,26 @@ This dashboard analyzes borrower and loan data to answer key business questions:
 
 ## Dashboard Preview
 
-### Executive Overview
+###  Overview
 ![Executive Overview](01_Executive_Overview.png.png)
 
-### Credit Risk Analysis
+### Risk Analysis
 ![Credit Risk Analysis](02_Credit_Risk_Analysis.png.png)
 
-### Borrower Insights
+### Customer Analysis
 ![Borrower Insights](03_Borrower_Insights.png.png)
 
-### Financial Performance
+### Financial Analysis
 ![Financial Performance](04_Financial_Performance.png.png)
 
-### Default Risk Prediction
+### Default Prediction
 ![Default Risk Prediction](05_Default_Risk_Prediction.png.png)
 
 ---
 
 ## Dashboard Pages
 
-### 1. Executive Overview
+### 1.  Overview
 
 Provides a high-level summary of the loan portfolio.
 
@@ -62,7 +62,7 @@ Key metrics include:
 
 ---
 
-### 2. Credit Risk Analysis
+### 2. Risk Analysis
 
 Analyzes default risk across borrower and loan characteristics.
 
@@ -77,7 +77,7 @@ Visuals include:
 
 ---
 
-### 3. Borrower Insights
+### 3. Customer Analysis
 
 Focuses on customer profile and borrower behavior.
 
@@ -92,7 +92,7 @@ Visuals include:
 
 ---
 
-### 4. Financial Performance
+### 4. Financial Analysis
 
 Analyzes loan amount, interest rate, and portfolio value.
 
@@ -108,7 +108,7 @@ Visuals include:
 
 ---
 
-### 5. Default Risk Prediction
+### 5. Default Prediction
 
 Highlights risk probability and borrower default patterns.
 
@@ -256,9 +256,6 @@ This dashboard helps financial institutions:
 - Reduce risk exposure
 - Improve credit approval strategy
 - Make data-driven lending decisions
-
-<img width="986" height="564" alt="01_Executive_Overview png" src="https://github.com/user-attachments/assets/bfc515a8-d8ca-408f-85ae-13f4d5d51ba3" />
-
 
 ## Author
 
